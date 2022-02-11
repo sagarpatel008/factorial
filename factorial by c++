@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int n,fact=1;
+cout<<"enter the number :";
+cin>>n;
+
+//factorial
+for(int i=n; i>=1 ; i--)
+{
+    fact *= i ; //1*5 , 5*4 , 20*3 , 60*2 , 120,1
+}
+cout<<"factorial :"<<fact<<endl ;
+
+main();
+
+//naturral num sum
+// for(int i=1;i<=n;i++)
+// {
+//   sum = sum + i ; //1 , 3 , 6 , 10 , 15
+//   cout << sum <<endl<<i<<endl;
+// }
+// cout<<"sum :"<<sum;
+return 0;
+// 1 + 2 +3 +4 .. . n
+}
